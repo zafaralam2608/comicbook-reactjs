@@ -23,6 +23,8 @@
 hs_err_pid*
 
 .idea
-src/main/webapp/build/
-src/main/webapp/node/
-src/main/webapp/node_modules/
+node/
+node_modules/
+target/
+src/main/resources/static/bundle.js
+src/main/resources/static/bundle.js.map
