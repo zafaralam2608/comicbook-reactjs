@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import {Header} from './common/Header';
 
-export default class Application extends React.Component{
+export class Application extends React.Component{
 
     constructor(props) {
         super(props);
@@ -14,7 +15,9 @@ export default class Application extends React.Component{
 
     render() {
         return(
-            <div>Hello World</div>
+            <div>
+                <Header/>
+            </div>
         );
     }
 }
